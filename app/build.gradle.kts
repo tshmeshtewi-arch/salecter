@@ -1,5 +1,3 @@
-import java.util.Properties
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -19,12 +17,6 @@ android {
     namespace = "com.ahmetocak.shoppingapp"
     compileSdk = 34
 
-    val p = Properties()
-    val localPropertiesFile = project.rootProject.file("local.properties")
-    if (localPropertiesFile.exists()) {
-        p.load(localPropertiesFile.inputStream())
-    }
-
     defaultConfig {
         applicationId = "com.ahmetocak.shoppingapp"
         minSdk = 26
@@ -36,10 +28,6 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-
-        buildConfigField("String", "API_KEY", "\"${p.getProperty("API_KEY", "")}\"")
-        buildConfigField("String", "PROJECT_ID", "\"${p.getProperty("PROJECT_ID", "")}\"")
-        buildConfigField("String", "APPLICATION_ID", "\"${p.getProperty("APPLICATION_ID", "")}\"")
     }
 
     buildTypes {
