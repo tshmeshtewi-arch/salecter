@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357159498477",
+    "project_id": "storex-f6c01",
+    "storage_bucket": "storex-f6c01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357159498477:android:d897407a1131d318a312e4",
+        "android_client_info": {
+          "package_name": "com.ahmetocak.shoppingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XcbFiWyh5Wunm5zVGro9a9UV_HT6W0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

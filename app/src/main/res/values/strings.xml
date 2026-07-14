@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name" translatable="false">متجر التسوق</string>
+
+    <string name="hello_again">أهلاً بعودتك !</string>
+    <string name="no_account">ليس لديك حساب؟</string>
+    <string name="register_now">سجّل الآن</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="enter_email">أدخل البريد الإلكتروني</string>
+    <string name="enter_password">أدخل كلمة المرور (٦ أحرف على الأقل)</string>
+    <string name="welcome_register">سجّل الآن !</string>
+    <string name="verify_password">تأكيد كلمة المرور</string>
+    <string name="sign_up">إنشاء حساب</string>
+    <string name="discover_products">اكتشف المنتجات</string>
+    <string name="all">الكل</string>
+    <string name="add_to_cart">أضف إلى السلة</string>
+    <string name="sub_total">المجموع الفرعي:</string>
+    <string name="delivery_fee">رسوم التوصيل:</string>
+    <string name="checkout">الدفع مقابل </string>
+    <string name="card_num">رقم البطاقة</string>
+    <string name="expiry_date">تاريخ الانتهاء</string>
+    <string name="cvc">رمز الأمان CVC</string>
+    <string name="delivery">التوصيل</string>
+    <string name="total">المجموع</string>
+    <string name="payment">الدفع</string>
+    <string name="home">الرئيسية</string>
+    <string name="profile">الحساب</string>
+    <string name="favorites">المفضلة</string>
+    <string name="search">بحث</string>
+    <string name="unknown_error">حدث خطأ ما</string>
+    <string name="send">إرسال</string>
+    <string name="password_reset_mail">تم إرسال بريد إعادة تعيين كلمة المرور. يرجى التحقق من بريدك الإلكتروني.</string>
+    <string name="unknown">حدث خطأ ما، يرجى المحاولة لاحقاً!!</string>
+    <string name="network">يرجى التحقق من اتصالك بالإنترنت!!</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="mobile">رقم الهاتف</string>
+    <string name="name">الاسم</string>
+    <string name="address">العنوان</string>
+    <string name="birthdate">تاريخ الميلاد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="update">تحديث</string>
+    <string name="account_info">معلومات الحساب</string>
+    <string name="verify">تحقق</string>
+    <string name="enter_verification_code">يرجى إدخال رمز التحقق المرسل إلى رقم هاتفك.</string>
+    <string name="verification_completed">تم التحقق بنجاح</string>
+    <string name="search_result_empty_message">يبدو أن المنتج الذي تبحث عنه غير متوفر.</string>
+    <string name="search_something">ابحث عن المنتج الذي تريده</string>
+    <string name="product_added_favorites">تمت إضافة المنتج إلى المفضلة بنجاح.</string>
+    <string name="product_removed_favorites">تمت إزالة المنتج من المفضلة بنجاح.</string>
+    <string name="no_favorite">يبدو أنه لا توجد لديك منتجات مفضلة.</string>
+    <string name="product_added_cart">تمت إضافة المنتج إلى السلة بنجاح.</string>
+    <string name="go_to_cart">الذهاب إلى السلة</string>
+    <string name="cart_empty">سلتك فارغة حالياً!</string>
+    <string name="card_holder">اسم صاحب البطاقة</string>
+    <string name="valid_thru">صالحة حتى</string>
+    <string name="expiry_date_placeholder">شهر/سنة</string>
+    <string name="fill_all_fields">يرجى ملء جميع الحقول!!</string>
+    <string name="payment_success">تم الدفع بنجاح. شكراً لتسوقك معنا.</string>
+    <string name="continue_shopping">متابعة التسوق</string>
+    <string name="name_updated_suc">تم تحديث الاسم بنجاح</string>
+    <string name="img_upload_suc">تم رفع الصورة بنجاح</string>
+    <string name="upload_address_suc">تم تحديث عنوانك بنجاح</string>
+    <string name="upload_birthdate_suc">تم تحديث تاريخ ميلادك بنجاح</string>
+    <string name="fill_this_field">"يرجى ملء هذا الحقل"</string>
+    <string name="pass_dont_match">كلمتا المرور غير متطابقتين</string>
+    <string name="pass_length">يجب أن تتكون كلمة المرور من ٦ أحرف على الأقل</string>
+    <string name="enter_valid_email">يرجى إدخال بريد إلكتروني صحيح</string>
+    <string name="confirm">تأكيد</string>
+    <string name="products">المنتجات</string>
+    <string name="shopping_notification_title">لا تنسَ التسوق</string>
+    <string name="shop_notification_description">لدينا عروض ومنتجات جديدة بانتظارك، ألقِ نظرة الآن!</string>
+    <string name="shopping_channel_name" translatable="false">قناة التسوق</string>
+    <string name="shopping_channel_description" translatable="false">تذكير يومي بالتسوق</string>
+    <string name="delete">حذف</string>
+    <string name="delete_account_title">حذف الحساب</string>
+    <string name="delete_account_success">تم حذف حسابك بنجاح</string>
+    <string name="delete_account_warning">عند حذف حسابك، سيتم حذف جميع بياناتك أيضاً. هذه العملية لا يمكن التراجع عنها.</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_channel</string>
+</resources>
