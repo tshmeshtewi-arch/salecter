@@ -21,24 +21,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Create google-services.json
-        env:
-          GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
-        run: printf '%s' "$GOOGLE_SERVICES_JSON" > app/google-services.json
-
-      - name: Debug - validate google-services.json
-        run: |
-          echo "----- File size -----"
-          wc -c app/google-services.json
-          echo "----- First 100 chars -----"
-          head -c 100 app/google-services.json
-          echo ""
-          echo "----- Last 100 chars -----"
-          tail -c 100 app/google-services.json
-          echo ""
-          echo "----- JSON validation -----"
-          python3 -m json.tool app/google-services.json > /dev/null && echo "VALID JSON" || echo "INVALID JSON"
-
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
