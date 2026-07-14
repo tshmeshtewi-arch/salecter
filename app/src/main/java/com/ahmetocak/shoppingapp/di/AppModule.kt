@@ -1,15 +1,12 @@
 package com.ahmetocak.shoppingapp.di
 
 import android.content.Context
-import com.ahmetocak.shoppingapp.BuildConfig
 import com.ahmetocak.shoppingapp.common.helpers.PreferenceManager
 import com.google.firebase.Firebase
-import com.google.firebase.FirebaseOptions
-import com.google.firebase.app
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.initialize
+import com.google.firebase.firestore.firestore
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.storage
@@ -40,17 +37,10 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideFirestore(@ApplicationContext context: Context): FirebaseFirestore {
-        val options = FirebaseOptions.Builder()
-            .setProjectId(BuildConfig.PROJECT_ID)
-            .setApplicationId(BuildConfig.APPLICATION_ID)
-            .setApiKey(BuildConfig.API_KEY)
-            .build()
-
-        Firebase.initialize(context, options, "secondary")
-        val secondary = Firebase.app("secondary")
-
-        return FirebaseFirestore.getInstance(secondary)
+    fun provideFirestore(): FirebaseFirestore {
+        // Uses the default Firebase app, which is configured automatically
+        // from app/google-services.json. No manual BuildConfig setup needed.
+        return Firebase.firestore
     }
 
     @Provides
